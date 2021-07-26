@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SKEGGE_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SKEGGE Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>D:\PriyaAutomation\Priya_Practice\SKEGGE_Automation\Config\config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SKEGGE_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SKEGGE_Test_Suite" class="hide-methods passed suite-SKEGGE_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-SKEGGE_Test_Suite -->
+                      <a href="#" panel-name="suite-SKEGGE_Test_Suite" class="show-methods passed suite-SKEGGE_Test_Suite"> (show)</a> <!-- show-methods passed suite-SKEGGE_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SKEGGE_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc01_verifyLoginPageTitle">tc01_verifyLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc02_verifyLoginPageContents">tc02_verifyLoginPageContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc03_verifySuccessfulLogin">tc03_verifySuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid)">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123)">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SKEGGE_Test_Suite" title="com.skegge.tests.LoginPageTest" class="method navigator-link" hash-for-method="tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid)">tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SKEGGE_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SKEGGE_Test_Suite" class="panel SKEGGE_Test_Suite">
+          <div class="suite-SKEGGE_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.skegge.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_verifyLoginPageTitle">
+                  </a> <!-- tc01_verifyLoginPageTitle -->
+                  <span class="method-name">tc01_verifyLoginPageTitle</span>
+                  <em>
+(Verify Login page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_verifyLoginPageContents">
+                  </a> <!-- tc02_verifyLoginPageContents -->
+                  <span class="method-name">tc02_verifyLoginPageContents</span>
+                  <em>
+(Verify login page contents)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03_verifySuccessfulLogin">
+                  </a> <!-- tc03_verifySuccessfulLogin -->
+                  <span class="method-name">tc03_verifySuccessfulLogin</span>
+                  <em>
+(Verify user is bale to successfully login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid)">
+                  </a> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid) -->
+                  <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials</span>
+                  <span class="parameters">(invalid, invalid)</span>
+                  <em>
+(Verify error message for invalid login credentials )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123)">
+                  </a> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123) -->
+                  <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials</span>
+                  <span class="parameters">(invalid, test@123)</span>
+                  <em>
+(Verify error message for invalid login credentials )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid)">
+                  </a> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid) -->
+                  <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials</span>
+                  <span class="parameters">(admin, invalid)</span>
+                  <em>
+(Verify error message for invalid login credentials )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SKEGGE_Test_Suite-class-passed -->
+        </div> <!-- panel SKEGGE_Test_Suite -->
+        <div panel-name="test-xml-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\PriyaAutomation\Priya_Practice\SKEGGE_Automation\Config\config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;SKEGGE Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.skegge.listener.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;com.skegge.listener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Automation Execution for Regression Test Cases&quot;&gt;
+    &lt;parameter name=&quot;include&quot; value=&quot;{&amp;#039;groups&amp;#039;:[&amp;#039;Regression&amp;#039;]}&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.skegge.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation Execution for Regression Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- SKEGGE Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SKEGGE Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation Execution for Regression Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SKEGGE Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc01_verifyLoginPageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc02_verifyLoginPageContents</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc03_verifySuccessfulLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc03_verifySuccessfulLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SKEGGE Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SKEGGE_Test_Suite');
+function tableData_SKEGGE_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc04_verifyErrorMessageForLoginWithInvalidCredentials')
+data.setCell(0, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(0, 3, 21397);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc04_verifyErrorMessageForLoginWithInvalidCredentials')
+data.setCell(1, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(1, 3, 17757);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc04_verifyErrorMessageForLoginWithInvalidCredentials')
+data.setCell(2, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(2, 3, 13513);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc03_verifySuccessfulLogin')
+data.setCell(3, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(3, 3, 11623);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc01_verifyLoginPageTitle')
+data.setCell(4, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(4, 3, 5052);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc02_verifyLoginPageContents')
+data.setCell(5, 2, 'com.skegge.tests.LoginPageTest')
+data.setCell(5, 3, 724);
+window.suiteTableData['SKEGGE_Test_Suite']= { tableData: data, tableDiv: 'times-div-SKEGGE_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SKEGGE_Test_Suite">
+              </div> <!-- times-div-SKEGGE_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SKEGGE Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully entered email{ invalid }and password{ invalid }and clicked login button</span>
+                <span class="reporter-method-output">Error Message : Invalid Username or Password</span>
+                <span class="reporter-method-output">Successfully verified error message for invalid login credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc03_verifySuccessfulLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully entered email{ admin }and password{ test@123 }and clicked login button</span>
+                <span class="reporter-method-output">Successfully signin to the application</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully entered email{ invalid }and password{ test@123 }and clicked login button</span>
+                <span class="reporter-method-output">Error Message : Invalid Username or Password</span>
+                <span class="reporter-method-output">Successfully verified error message for invalid login credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully entered email{ admin }and password{ invalid }and clicked login button</span>
+                <span class="reporter-method-output">Error Message : Invalid Username or Password</span>
+                <span class="reporter-method-output">Successfully verified error message for invalid login credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc01_verifyLoginPageTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully verified signin page title</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc02_verifyLoginPageContents</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Logo is present</span>
+                <span class="reporter-method-output">Login Page Title is present : Welcome, Please login</span>
+                <span class="reporter-method-output">Email Textbox is present</span>
+                <span class="reporter-method-output">Password Textbox is present</span>
+                <span class="reporter-method-output">Login Button is present</span>
+                <span class="reporter-method-output">Forgot Password Hyperlink is present: Forgot your password?</span>
+                <span class="reporter-method-output">Successfully verified login page contents</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SKEGGE_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.skegge.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc01_verifyLoginPageTitle</span>
+                <span class="method-start">17630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_verifyLoginPageContents</span>
+                <span class="method-start">34878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc03_verifySuccessfulLogin</span>
+                <span class="method-start">46016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, test@123)</span>
+                <span class="method-start">68966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(admin, invalid)</span>
+                <span class="method-start">93991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">126191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc04_verifyErrorMessageForLoginWithInvalidCredentials(invalid, invalid)</span>
+                <span class="method-start">154769 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

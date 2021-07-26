@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified signin page title]]>
+    </line>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Login Logo is present]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title is present : Welcome, Please login]]>
+    </line>
+    <line>
+      <![CDATA[Email Textbox is present]]>
+    </line>
+    <line>
+      <![CDATA[Password Textbox is present]]>
+    </line>
+    <line>
+      <![CDATA[Login Button is present]]>
+    </line>
+    <line>
+      <![CDATA[Forgot Password Hyperlink is present: Forgot your password?]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified login page contents]]>
+    </line>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered email{ admin }and password{ test@123 }and clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully signin to the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered email{ invalid }and password{ test@123 }and clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Error Message : Invalid Username or Password]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified error message for invalid login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered email{ admin }and password{ invalid }and clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Error Message : Invalid Username or Password]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified error message for invalid login credentials]]>
+    </line>
+    <line>
+      <![CDATA[Successfully launched application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered email{ invalid }and password{ invalid }and clicked login button]]>
+    </line>
+    <line>
+      <![CDATA[Error Message : Invalid Username or Password]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified error message for invalid login credentials]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-26T17:23:31Z" name="SKEGGE Test Suite" finished-at="2021-07-26T17:26:30Z" duration-ms="179242">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPageTest.tc01_verifyLoginPageTitle()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" name="tc01_verifyLoginPageTitle" class="com.skegge.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.tc02_verifyLoginPageContents()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" name="tc02_verifyLoginPageContents" class="com.skegge.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.tc03_verifySuccessfulLogin()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" name="tc03_verifySuccessfulLogin" class="com.skegge.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.tc04_verifyErrorMessageForLoginWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" name="tc04_verifyErrorMessageForLoginWithInvalidCredentials" class="com.skegge.tests.LoginPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginPageTest.tc03_verifySuccessfulLogin()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" name="tc03_verifySuccessfulLogin" class="com.skegge.tests.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-07-26T17:23:31Z" name="Automation Execution for Regression Test Cases" finished-at="2021-07-26T17:26:30Z" duration-ms="179242">
+      <class name="com.skegge.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:53:31Z" name="setUp" finished-at="2021-07-26T22:53:48Z" duration-ms="17629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_verifyLoginPageTitle()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:53:48Z" name="tc01_verifyLoginPageTitle" description="Verify Login page title" finished-at="2021-07-26T22:53:54Z" duration-ms="5052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully verified signin page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc01_verifyLoginPageTitle -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:53:54Z" name="setUp" finished-at="2021-07-26T22:54:06Z" duration-ms="11454" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc02_verifyLoginPageContents()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:06Z" name="tc02_verifyLoginPageContents" description="Verify login page contents" finished-at="2021-07-26T22:54:06Z" duration-ms="724" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Logo is present]]>
+            </line>
+            <line>
+              <![CDATA[Login Page Title is present : Welcome, Please login]]>
+            </line>
+            <line>
+              <![CDATA[Email Textbox is present]]>
+            </line>
+            <line>
+              <![CDATA[Password Textbox is present]]>
+            </line>
+            <line>
+              <![CDATA[Login Button is present]]>
+            </line>
+            <line>
+              <![CDATA[Forgot Password Hyperlink is present: Forgot your password?]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified login page contents]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc02_verifyLoginPageContents -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:07Z" name="setUp" finished-at="2021-07-26T22:54:17Z" duration-ms="10027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc03_verifySuccessfulLogin()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:17Z" name="tc03_verifySuccessfulLogin" description="Verify user is bale to successfully login with valid credentials" finished-at="2021-07-26T22:54:28Z" duration-ms="11623" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered email{ admin }and password{ test@123 }and clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully signin to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc03_verifySuccessfulLogin -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:29Z" name="setUp" finished-at="2021-07-26T22:54:40Z" duration-ms="10716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc04_verifyErrorMessageForLoginWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:40Z" name="tc04_verifyErrorMessageForLoginWithInvalidCredentials" description="Verify error message for invalid login credentials " data-provider="Invalid_Login" finished-at="2021-07-26T22:54:53Z" duration-ms="13513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered email{ invalid }and password{ test@123 }and clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Error Message : Invalid Username or Password]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified error message for invalid login credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:54:54Z" name="setUp" finished-at="2021-07-26T22:55:05Z" duration-ms="10931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc04_verifyErrorMessageForLoginWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:55:05Z" name="tc04_verifyErrorMessageForLoginWithInvalidCredentials" description="Verify error message for invalid login credentials " data-provider="Invalid_Login" finished-at="2021-07-26T22:55:23Z" duration-ms="17757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered email{ admin }and password{ invalid }and clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Error Message : Invalid Username or Password]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified error message for invalid login credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:55:37Z" name="setUp" finished-at="2021-07-26T22:56:06Z" duration-ms="28569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully launched application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc04_verifyErrorMessageForLoginWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.skegge.tests.LoginPageTest@29e495ff]" started-at="2021-07-26T22:56:06Z" name="tc04_verifyErrorMessageForLoginWithInvalidCredentials" description="Verify error message for invalid login credentials " data-provider="Invalid_Login" finished-at="2021-07-26T22:56:27Z" duration-ms="21397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered email{ invalid }and password{ invalid }and clicked login button]]>
+            </line>
+            <line>
+              <![CDATA[Error Message : Invalid Username or Password]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified error message for invalid login credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc04_verifyErrorMessageForLoginWithInvalidCredentials -->
+      </class> <!-- com.skegge.tests.LoginPageTest -->
+    </test> <!-- Automation Execution for Regression Test Cases -->
+  </suite> <!-- SKEGGE Test Suite -->
+</testng-results>

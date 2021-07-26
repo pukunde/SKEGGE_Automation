@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SKEGGE Test Suite" verbose="1" parallel="methods"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.skegge.listener.Listener"></listener>
+		<listener class-name="com.skegge.listener.ExtentReporterNG"></listener>
+		
+	</listeners>
+
+	<test name="Automation Execution for Regression Test Cases"
+		enabled="true" parallel="false">
+		<classes>
+			<class name="com.skegge.tests.LoginPageTest" />
+		</classes>
+	</test>
+</suite>

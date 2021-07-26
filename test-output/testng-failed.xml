@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [SKEGGE Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.skegge.listener.Listener"/>
+    <listener class-name="com.skegge.listener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Automation Execution for Regression Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.skegge.tests.LoginPageTest">
+        <methods>
+          <include name="tc04_verifyErrorMessageForLoginWithInvalidCredentials" invocation-numbers="0 1 2"/>
+          <include name="tc03_verifySuccessfulLogin"/>
+        </methods>
+      </class> <!-- com.skegge.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Automation Execution for Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [SKEGGE Test Suite] -->
